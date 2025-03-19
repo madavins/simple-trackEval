@@ -7,8 +7,8 @@ A simplified version of [TrackEval](https://github.com/JonathonLuiten/TrackEval)
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/madavins/simpleTrackEval.git
-cd simpleTrackEval
+git clone https://github.com/madavins/simple-TrackEval.git
+cd simple-TrackEval
 
 # Create and activate virtual environment (recommended)
 python -m venv venv
