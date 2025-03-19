@@ -1,6 +1,6 @@
 
 # Simplified Multiple Object Tracking evaluation
-A simplified version of [TrackEval](https://github.com/JonathonLuiten/TrackEval) focused on Multiple Object Tracking (MOT) evaluation in [MOTChallenge](https://motchallenge.net/) format. This tool provides a streamlined interface for evaluating object tracking results against ground truth data and supports multiple evaluation metrics including HOTA (recommended tracking metric), CLEAR, Identity, Count, and VACE.
+A simplified version of [TrackEval](https://github.com/JonathonLuiten/TrackEval) focused on Multiple Object Tracking (MOT) evaluation in [MOTChallenge](https://motchallenge.net/) format. This tool provides a streamlined interface for evaluating object tracking results against ground truth data and supports multiple evaluation metrics including [HOTA](https://link.springer.com/article/10.1007/s11263-020-01375-2) (recommended tracking metric), [CLEAR](https://link.springer.com/article/10.1155/2008/246309), [Identity](https://arxiv.org/abs/1609.01775), [Count](https://github.com/madavins/simple-trackEval/blob/main/trackeval/metrics/count.py), and [VACE](https://link.springer.com/chapter/10.1007/11612704_16).
 
 > Note: This project is currently under active development.
 
