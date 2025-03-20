@@ -32,7 +32,8 @@ python simple_eval.py \
     --metrics HOTA CLEAR Identity \
     --output_dir results \
     --plots \
-    --tracker_name StrongSort
+    --tracker_name StrongSort \
+    --sequence_name video_5
 ```
 
 ## Input format
