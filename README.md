@@ -40,16 +40,16 @@ python simple_eval.py \
 The tracker results should be provided as a CSV text-file where each line represents a detection of an object instance in a specific frame. Each line must contain 10 comma-separated values in the following order:
 
 ```bash
-<frame_number>, <track_id>, <bounding_box_left>, <bounding_box_top>, <bounding_box_width>, <bounding_box_height>, <confidence_score>, <x>, <y>, <z>
+<frame_number>, <track_id>, <x>, <y>, <width>, <height>, <confidence_score>, <x>, <y>, <z>
 ```
 
 - **frame_number**: The frame index in which the object is detected. Frame numbers are 1-based.
 - **track_id**: The ID of the tracked object. Track IDs are 1-based.
-- **bounding_box_left**: The x-coordinate of the top-left corner of the bounding box. 1-based.
-- **bounding_box_top**: The y-coordinate of the top-left corner of the bounding box. 1-based.
-- **bounding_box_width**: The width of the bounding box.
-- **bounding_box_height**: The height of the bounding box.
-- **confidence_score**: The detection confidence score. Use `-1` if not available.
+- **x**: The x-coordinate of the top-left corner of the bounding box.
+- **y**: The y-coordinate of the top-left corner of the bounding box.
+- **width**: The width of the bounding box.
+- **height**: The height of the bounding box.
+- **confidence_score**: The detection confidence score. Use `-1` if not available. Not used in currently implemented metrics.
 - **x, y, z**: These coordinates are ignored for the 2D MOT challenge and can be filled with `-1`.
 
 Example:
